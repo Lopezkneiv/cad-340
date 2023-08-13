@@ -1,2 +1,4 @@
-# cad-340
-A repository for my Web Development with HTML and CSS class at Bellevue University
+#CSD 340 Web Development with HTML and CSS
+##Contributors
+Ivan Lopez-Kne
+Joseph Issa
