@@ -11,4 +11,8 @@
 2. module-2
  * Lopez-Kne_Mod2_2.html
  * Lopez-Kne_Mod2_2.css
+3. module-3
+ * Lopez-Kne-Assignment3.2.docx
+ * Lopez-Kne_Mod3_3.html
+ * Lopez-Kne_Mod3_3.css
  
