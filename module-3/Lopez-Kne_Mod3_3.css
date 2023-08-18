@@ -1,0 +1,57 @@
+/* Add your CSS styling here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h3 {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 20px; /* Adjusted padding for more spacing */
+    list-style: inside decimal;
+    list-style-position: inside;
+  }
+  
+  ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 20px; /* Adjusted padding for more spacing */
+    list-style: upper-roman;
+    list-style-position: inside;
+  }
+  
+  li {
+    font-weight: 300;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #bottom-div {
+    float: right;
+    margin-bottom: 20px;
+  }
+  
