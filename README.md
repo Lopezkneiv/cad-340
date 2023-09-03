@@ -19,4 +19,6 @@
  * Lopez-Kne_Mod4_2.css
  * Lopez-Kne_Mod4_2.html
  * images
- 
+ 5. module-6
+ * Lopez-Kne_Mod6_2.html
+ * Lopez-Kne_Mod6_2.css
