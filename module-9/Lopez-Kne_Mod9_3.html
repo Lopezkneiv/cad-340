@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="nofollow" />
+    <meta name="description" content="Assignment 9.3: JavaScript - Part 1">
+    <meta name="keywords" content="HTML, CSS, assignment, JavaScript">
+    <meta name="author" content="Ivan Lopez-Kne">
+    <link rel="stylesheet" href="Lopez-Kne_Mod9_3.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        function replaceText(spanId, newText) {
+            var span = document.getElementById(spanId);
+            span.textContent = newText;
+        }
+
+        function resetText(spanId) {
+            var span = document.getElementById(spanId);
+            span.textContent = "__________";
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <p>Here's a short story about me:</p>
+        <p>My name is Ivan Lopez-Kne and I live in <span id="span1">________</span>, Minnesota. I moved here from Boston when I was an infant, and have spent the vast majority of my life here. I briefly attended college in <span id="span2">________</span>, Minnesota but quickly came back when my program was cut.</p>
+        <p> I have studied music, journalism, and now software development. It has been a rocky road trying to find a solid path in life, but it has let me explore plenty of interests and discover new hobbies I never considered! I’m excited to continue learning about software development though <span id="span3">________</span>!</p>
+        <p> In my free time I enjoy finding new ways to make more delicious foods. I have experimented with cake baking, sous vide, grilling, and a few other cooking methods. If you have never had a nice sous vide steak or chicken, you should try to find a way to do it!</p>
+        <p> I’m highly interested in the classes here at Bellevue. It has been difficult to learn so much at such an expedited pace, but it’s been highly <span id="span4">________</span>.
+        
+        <button onclick="replaceText('span1', 'Coon Rapids')">City 1</button>
+        <button onclick="resetText('span1')">Reset</button>
+
+        <button onclick="replaceText('span2', 'Moorhead')">City 2</button>
+        <button onclick="resetText('span2')">Reset</button>
+
+        <button onclick="replaceText('span3', 'Bellevue')">City 3</button>
+        <button onclick="resetText('span3')">Reset</button>
+
+        <button onclick="replaceText('span4', 'rewarding')">Adjective</button>
+        <button onclick="resetText('span4')">Reset</button>
+    </div>
+</body>
+</html>
