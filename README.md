@@ -28,3 +28,7 @@
  7. module-9
  * Lopez-Kne_Mod9_3.html
  * Lopez-Kne_Mod9_3.css
+ 8. module-10
+* Lopez-Kne_Mod10_3.css
+* Lopez-Kne_Mod10_3.html
+* Lopez-Kne_Mod10_3.js
