@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  font-weight: 500;
+  color: #333;
+}
+
+ol {
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 20px;
+  list-style: inside decimal;
+  list-style-position: inside;
+}
+
+ul {
+  border: 1px dashed red;
+  border-radius: 15px;
+  padding: 20px;
+  list-style: upper-roman;
+  list-style-position: inside;
+}
+
+li {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* New Styles Based on Previous Inline Styles */
+
+#container > div:nth-child(3) { /* Selects the new wrapper div for side-by-side sections */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#bookList {
+  width: 45%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* If you want to style the individual sections, you can use additional selectors */
+div[style*="width: 45%"] {
+  width: 45%; /* This is redundant but included for clarity */
+  /* You can include any additional styles for these divs here */
+}
+
+/* Styling for buttons */
+button {
+  cursor: pointer; /* Changes the cursor to a hand when hovering over the button */
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#bookList, .learned-section {
+  width: 45%;
+}
+
+.landing-page-link {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.landing-page-link a {
+  float: right;
+}
